@@ -5,8 +5,8 @@ function setup() {
   createCanvas(800,400);
   car = createSprite(400, 200, 40, 50);
  wall = createSprite(200,200,30,40)
-  car.shapeColor = "white";
-  wall.shapeColor = "red";
+  car.shapeColor = "gray";
+  wall.shapeColor = "white";
 car.velocityX = -3;
  // rectangle1.velocityY = -3;
 }
