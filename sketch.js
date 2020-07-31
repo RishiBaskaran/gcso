@@ -3,7 +3,7 @@ var car,wall;
 
 function setup() {
   createCanvas(800,400);
-  car = createSprite(400, 200, 25, 50);
+  car = createSprite(400, 200, 100, 50);
  wall = createSprite(200,200,20,40)
   car.shapeColor = "gray";
   wall.shapeColor = "white";
