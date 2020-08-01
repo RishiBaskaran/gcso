@@ -29,6 +29,6 @@ car.shapeColor = "blue";
 //car.velocityX = car.velocityX * (-1);
   car.velocityX = 0;
 }
-if(deformation = 
+ 
   drawSprites();
 }
