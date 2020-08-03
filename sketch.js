@@ -7,7 +7,7 @@ function setup() {
   weight = random(400,1500);
   car = createSprite(400, 200, 100, 50);
  wall = createSprite(200,200,20,40)
-  car.shapeColor = white;
+  car.shapeColor ="white";
   wall.shapeColor = color(80,80,80);
  car.velocityX = speed;
  // rectangle1.velocityY = -3;
@@ -40,7 +40,7 @@ car.shapeColor = "blue";
     if(deformation < 180 && deformation > 100){
       wall.shapeColor = color(230,230,0);
     }
-    f(deformation < 100){
+    if(deformation < 100){
       wall.shapeColor = color(0,255,0);
     }
   }
